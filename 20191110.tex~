@@ -61,46 +61,46 @@ r( \bm{A} )=r( \bm{A}^T )=r( \bm{A}^T \bm{A} )=r( \bm{A} \bm{A} ^T) \qquad
 \subsection{证明向量组$\alpha_1...\alpha_n$线性相关的充分必要条件是该向量组中至少有一个向量被其余向量线性表示}
 1. "$\Rightarrow$": 存在不全为0的$k_1,k_2,..., k_n$使得 $k_1\alpha_1+...+ k_n \alpha_n=0$ \qquad
 设 $k_1\neq 0$,  $\alpha_1=-\frac{k_2}{k_1}\alpha_2-...-\frac{k_n}{k_1}\alpha_n$ \qquad
-2. "$\Leftarrow$" $l_1\alpha_1+...+l_{k-1}\alpha_{k-1}+l_{k+1}\alpha_{k+1}+...+l_n\alphaa_n$ \\
-  $\Rightarrow l_1\alpha_1+...+l_{k-1}\alpha_{k-1}+(-1)\alpha_k+l_{k+1}\alpha_{k+1}+...+l_n\alpha_n=0$ \\ 
- 所以$\alpha_1...\alpha_n$线性相关 \\ 
+2. "$\Leftarrow$" $l_1\alpha_1+...+l_{k-1}\alpha_{k-1}+l_{k+1}\alpha_{k+1}+...+l_n\alphaa_n$ \\ \\
+  $\Rightarrow l_1\alpha_1+...+l_{k-1}\alpha_{k-1}+(-1)\alpha_k+l_{k+1}\alpha_{k+1}+...+l_n\alpha_n=0$ \\ \\
+ 所以$\alpha_1...\alpha_n$线性相关 \\ \\
 \subsection{证明$\alpha \beta$线性相关$\Leftrightarrow \alpha \beta$成比例}
-证明:"$\Rightarrow$" $\exists$不全为0的 $k_1k_2$,使得
- $k_1\alpha+k_2\beta=0$\qquad
- 设  $k_2\neq0 \Rightarrow \beta = - \frac{k_1}{k_2}\alpha$ $\Rightarrow$ $\alpha\beta$对应成比例 \\ 
- "$\Leftarrow$"设$\beta=l\alpha \Rightarrow l\alpha+(-1)\beta=0$\qquad 
-  $\Rightarrow$  $\alpha \beta$线性相关 \\ 
+证明:"$\Rightarrow$" $\exists$不全为0的 $k_1k_2$,使得 \\ \\
+ $k_1\alpha+k_2\beta=0$ \\ \\
+ 设  $k_2\neq0 \Rightarrow \beta = - \frac{k_1}{k_2}\alpha$ $\Rightarrow$ $\alpha\beta$对应成比例 \\ \\
+ "$\Leftarrow$"设$\beta=l\alpha \Rightarrow l\alpha+(-1)\beta=0$ \\ \\
+  $\Rightarrow$  $\alpha \beta$线性相关 \\ \\
 \subsection{向量祖相关性与线性表示的性质}
-2.设$\alpha_1...\alpha_n$线性无关 \\ 
-(1)若$\alpha_1...\alpha_n,\beta$线性相关,则向量 $b$可以由 $\alpha_1...\alpha_n$唯一线性表示 \\ 
-"$\Rightarrow$"$\exists$不全为0的 $k_1...k_n,k_0$使 \\ 
- $k_1\alpha_1+...+k_n\alpha_n+k_0\beta=0$ \\ 
-若$k_0=0\Rightarrow k_1\alpha_1+...+k_n=0$\\
-$k_0 \neq 0 \Rightarrow \beta=-\frac{k_0}{k_}\alpha_1-...-\frac{k_n}{k_0}\alpha_n$ \\ 
+2.设$\alpha_1...\alpha_n$线性无关 \\ \\
+(1)若$\alpha_1...\alpha_n,\beta$线性相关,则向量 $b$可以由 $\alpha_1...\alpha_n$唯一线性表示 \\ \\
+"$\Rightarrow$"$\exists$不全为0的 $k_1...k_n,k_0$使 \\ \\
+ $k_1\alpha_1+...+k_n\alpha_n+k_0\beta=0$ \\ \\
+若$k_0=0\Rightarrow k_1\alpha_1+...+k_n=0$\\ \\
+$k_0 \neq 0 \Rightarrow \beta=-\frac{k_0}{k_1}\alpha_1-...-\frac{k_n}{k_0}\alpha_n$ \\ \\
 
-证明唯一性:令$\beta=l_1\alpha_1+...+l_n\alpha_n$ \\
-\ \ \ $\beta=t_1\alpha_1+...+t_n\alpha_n$ \\ 
-$\Rightarrow (l_1-t_1)\alpha_1+...+(l_n-t_n)\alpha_n=0$ \\ 
-因为$\alpha_1...\alpha_n$线性无关,所以  $l_1=t_1,...,l_n=t_n$,证毕 \\ 
+证明唯一性:令$\beta=l_1\alpha_1+...+l_n\alpha_n$ \\ \\ 
+\ \ \ $\beta=t_1\alpha_1+...+t_n\alpha_n$ \\ \\
+$\Rightarrow (l_1-t_1)\alpha_1+...+(l_n-t_n)\alpha_n=0$ \\ \\
+因为$\alpha_1...\alpha_n$线性无关,所以  $l_1=t_1,...,l_n=t_n$,证毕 \\ \\
 
-(2)$\alpha_1...\alpha_n,b$线性无关$\Leftrightarrow $向量b不可以由 $\alpha_1...\alpha_n$线性表示 \\ 
-用反证法证明。\\ 
-3.全组线性无关$\Rightarrow$部分组线性无关 \\ 
-4.部分组相关$\Rightarrow$全组线性相关\\ 
-5.$\alpha_1...\alpha_n$为n个n维向量 \\
-$\alpha_1...\alpha_n$线性无关的充分必要条件是$|\alpha_1,...,\alpha_n|\neq 0$\\ 
-用下面的结论 \\ 
-$A=(\alpha_1...\alpha_n),\alpha_1...\alpha_n$线性无关$\Leftrightarrow$$\alpha_1...\alpha_n$的秩=n $\Leftrightarrow r(A)=n \Leftrightarrow |A|\neq 0$ \\ 
-5.$\alpha_1...\alpha_n$线性相关$\Leftrightarrow|\alpha_1...\alpha_n|=0$ \\ 
-证:令$A=(\alpha_1...\alpha_n)$.\\ 
-$\alpha_1...\alpha_n$线性相关$\Leftrightarrow \alpha_1...\alpha_n $的秩<n $\Leftrightarrow r(A)=n \Leftrightarrow |A| = 0$ \\ 
+(2)$\alpha_1...\alpha_n,b$线性无关$\Leftrightarrow $向量b不可以由 $\alpha_1...\alpha_n$线性表示 \\ \\
+用反证法证明。\\ \\
+3.全组线性无关$\Rightarrow$部分组线性无关 \\ \\
+4.部分组相关$\Rightarrow$全组线性相关\\ \\
+5.$\alpha_1...\alpha_n$为n个n维向量 \\ \\
+$\alpha_1...\alpha_n$线性无关的充分必要条件是$|\alpha_1,...,\alpha_n|\neq 0$\\ \\
+用下面的结论 \\ \\
+$A=(\alpha_1...\alpha_n),\alpha_1...\alpha_n$线性无关$\Leftrightarrow$$\alpha_1...\alpha_n$的秩=n $\Leftrightarrow r(A)=n \Leftrightarrow |A|\neq 0$ \\ \\
+5.$\alpha_1...\alpha_n$线性相关$\Leftrightarrow|\alpha_1...\alpha_n|=0$ \\ \\
+证:令$A=(\alpha_1...\alpha_n)$.\\ \\
+$\alpha_1...\alpha_n$线性相关$\Leftrightarrow \alpha_1...\alpha_n $的秩<n $\Leftrightarrow r(A)=n \Leftrightarrow |A| = 0$ \\ \\
 6.设$\alpha_1...\alpha_n$为n个m维向量,若$m<n$,则向量组$\alpha_1...\alpha_n$一定线性相关
-说明:口诀向量组左右长上下短一点线性相关\\ 
-向量的维数代表了方程的个数 \\ 
-向量的个数代表了未知数的个数 \\ 
-方程数少了，有自由变量，一定有非零解，则一定线性相关 \\ 
-证明:令$A_{m*n}=(\alpha_1...\alpha_n) \Rightarrow r(A) \leq m < n$\\ 
-因为$\alpha_1...\alpha_n$线性相关$\Leftrightarrow \alpha_1...\alpha_n$的秩<n  $\Leftrightarrow r(A)<n$ \\ 
+说明:口诀向量组左右长上下短一点线性相关\\ \\
+向量的维数代表了方程的个数 \\ \\
+向量的个数代表了未知数的个数 \\ \\
+方程数少了，有自由变量，一定有非零解，则一定线性相关 \\ \\
+证明:令$A_{m*n}=(\alpha_1...\alpha_n) \Rightarrow r(A) \leq m < n$\\ \\ 
+因为$\alpha_1...\alpha_n$线性相关$\Leftrightarrow \alpha_1...\alpha_n$的秩<n  $\Leftrightarrow r(A)<n$ \\ \\
 而$r(A)\leq m<n.$所以 $\alpha_1...\alpha_n$线性相关
 
 \subsection{汤家凤行列式强化提高}

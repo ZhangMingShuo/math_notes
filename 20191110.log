@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.10.1)  12 NOV 2019 11:21
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.10.1)  12 NOV 2019 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -519,7 +519,7 @@ Package fontspec Info: Font family 'FandolSong-Regular(0)' created for font
 )) (/usr/share/texlive/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2018/05/02 v2.4.14 Configuration file (CTEX)
 )
-No file 20191110.aux.
+(./20191110.aux)
 \openout1 = `20191110.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -538,6 +538,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -633,646 +634,462 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 ! Undefined control sequence.
 l.15 \bm
-        {A} + \bm{B} = \bm{B} + \bm{A}
+        {A} + \bm{B} = \bm{B} + \bm{A} \qquad
 ? 
 ! Undefined control sequence.
 l.15 \bm{A} + \bm
-                 {B} = \bm{B} + \bm{A}
+                 {B} = \bm{B} + \bm{A} \qquad
 ? 
 ! Undefined control sequence.
 l.15 \bm{A} + \bm{B} = \bm
-                          {B} + \bm{A}
+                          {B} + \bm{A} \qquad
 ? 
 ! Undefined control sequence.
 l.15 \bm{A} + \bm{B} = \bm{B} + \bm
-                                   {A}
+                                   {A} \qquad
+? 
+! Undefined control sequence.
+l.16 (\bm
+         {A} + \bm{B}) + \bm{C} = \bm{A} + (\bm{B}+\bm{C}) \qquad
+? 
+! Undefined control sequence.
+l.16 (\bm{A} + \bm
+                  {B}) + \bm{C} = \bm{A} + (\bm{B}+\bm{C}) \qquad
+? 
+! Undefined control sequence.
+l.16 (\bm{A} + \bm{B}) + \bm
+                            {C} = \bm{A} + (\bm{B}+\bm{C}) \qquad
+? 
+! Undefined control sequence.
+l.16 (\bm{A} + \bm{B}) + \bm{C} = \bm
+                                     {A} + (\bm{B}+\bm{C}) \qquad
+? 
+! Undefined control sequence.
+l.16 (\bm{A} + \bm{B}) + \bm{C} = \bm{A} + (\bm
+                                               {B}+\bm{C}) \qquad
+? 
+! Undefined control sequence.
+l.16 ... + \bm{B}) + \bm{C} = \bm{A} + (\bm{B}+\bm
+                                                  {C}) \qquad
 ? 
 ! Undefined control sequence.
 l.17 (\bm
-         {A} + \bm{B}) + \bm{C} = \bm{A} + (\bm{B}+\bm{C})
+         {A}\bm{B})\bm{C}=\bm{A}(\bm{B}\bm{C}) \qquad
 ? 
 ! Undefined control sequence.
-l.17 (\bm{A} + \bm
-                  {B}) + \bm{C} = \bm{A} + (\bm{B}+\bm{C})
+l.17 (\bm{A}\bm
+               {B})\bm{C}=\bm{A}(\bm{B}\bm{C}) \qquad
 ? 
 ! Undefined control sequence.
-l.17 (\bm{A} + \bm{B}) + \bm
-                            {C} = \bm{A} + (\bm{B}+\bm{C})
+l.17 (\bm{A}\bm{B})\bm
+                      {C}=\bm{A}(\bm{B}\bm{C}) \qquad
 ? 
 ! Undefined control sequence.
-l.17 (\bm{A} + \bm{B}) + \bm{C} = \bm
-                                     {A} + (\bm{B}+\bm{C})
+l.17 (\bm{A}\bm{B})\bm{C}=\bm
+                             {A}(\bm{B}\bm{C}) \qquad
 ? 
 ! Undefined control sequence.
-l.17 (\bm{A} + \bm{B}) + \bm{C} = \bm{A} + (\bm
-                                               {B}+\bm{C})
+l.17 (\bm{A}\bm{B})\bm{C}=\bm{A}(\bm
+                                    {B}\bm{C}) \qquad
 ? 
 ! Undefined control sequence.
-l.17 ... + \bm{B}) + \bm{C} = \bm{A} + (\bm{B}+\bm
-                                                  {C})
+l.17 (\bm{A}\bm{B})\bm{C}=\bm{A}(\bm{B}\bm
+                                          {C}) \qquad
 ? 
 ! Undefined control sequence.
-l.19 (\bm
-         {A}\bm{B})\bm{C}=\bm{A}(\bm{B}\bm{C})
+l.18 (k+l)\bm
+             {A}=k\bm{A}+l\bm{A} \qquad
 ? 
 ! Undefined control sequence.
-l.19 (\bm{A}\bm
-               {B})\bm{C}=\bm{A}(\bm{B}\bm{C})
+l.18 (k+l)\bm{A}=k\bm
+                     {A}+l\bm{A} \qquad
 ? 
 ! Undefined control sequence.
-l.19 (\bm{A}\bm{B})\bm
-                      {C}=\bm{A}(\bm{B}\bm{C})
+l.18 (k+l)\bm{A}=k\bm{A}+l\bm
+                             {A} \qquad
 ? 
 ! Undefined control sequence.
-l.19 (\bm{A}\bm{B})\bm{C}=\bm
-                             {A}(\bm{B}\bm{C})
+l.19 k(\bm
+          {A}+\bm{B})=k\bm{A}+k\bm{B} \qquad
 ? 
 ! Undefined control sequence.
-l.19 (\bm{A}\bm{B})\bm{C}=\bm{A}(\bm
-                                    {B}\bm{C})
+l.19 k(\bm{A}+\bm
+                 {B})=k\bm{A}+k\bm{B} \qquad
 ? 
 ! Undefined control sequence.
-l.19 (\bm{A}\bm{B})\bm{C}=\bm{A}(\bm{B}\bm
-                                          {C})
+l.19 k(\bm{A}+\bm{B})=k\bm
+                          {A}+k\bm{B} \qquad
 ? 
 ! Undefined control sequence.
-l.21 (k+l)\bm
-             {A}=k\bm{A}+l\bm{A}
+l.19 k(\bm{A}+\bm{B})=k\bm{A}+k\bm
+                                  {B} \qquad
 ? 
 ! Undefined control sequence.
-l.21 (k+l)\bm{A}=k\bm
-                     {A}+l\bm{A}
+l.20 \bm
+        {A}(\bm{B}+\bm{C})=\bm{A}\bm{B}+\bm{A}\bm{C} \qquad
 ? 
 ! Undefined control sequence.
-l.21 (k+l)\bm{A}=k\bm{A}+l\bm
-                             {A}
+l.20 \bm{A}(\bm
+               {B}+\bm{C})=\bm{A}\bm{B}+\bm{A}\bm{C} \qquad
 ? 
 ! Undefined control sequence.
-l.23 k(\bm
-          {A}+\bm{B})=k\bm{A}+k\bm{B}
+l.20 \bm{A}(\bm{B}+\bm
+                      {C})=\bm{A}\bm{B}+\bm{A}\bm{C} \qquad
 ? 
 ! Undefined control sequence.
-l.23 k(\bm{A}+\bm
-                 {B})=k\bm{A}+k\bm{B}
+l.20 \bm{A}(\bm{B}+\bm{C})=\bm
+                              {A}\bm{B}+\bm{A}\bm{C} \qquad
 ? 
 ! Undefined control sequence.
-l.23 k(\bm{A}+\bm{B})=k\bm
-                          {A}+k\bm{B}
+l.20 \bm{A}(\bm{B}+\bm{C})=\bm{A}\bm
+                                    {B}+\bm{A}\bm{C} \qquad
 ? 
 ! Undefined control sequence.
-l.23 k(\bm{A}+\bm{B})=k\bm{A}+k\bm
-                                  {B}
+l.20 \bm{A}(\bm{B}+\bm{C})=\bm{A}\bm{B}+\bm
+                                           {A}\bm{C} \qquad
 ? 
 ! Undefined control sequence.
-<recently read> \bm 
-                    
-l.25 \bm
-        {A}(\bm{B}+\bm{C})=\bm{A}\bm{B}+\bm{A}\bm{C}
+l.20 \bm{A}(\bm{B}+\bm{C})=\bm{A}\bm{B}+\bm{A}\bm
+                                                 {C} \qquad
 ? 
 ! Undefined control sequence.
-l.25 \bm{A}(\bm
-               {B}+\bm{C})=\bm{A}\bm{B}+\bm{A}\bm{C}
+l.24 (\bm
+         {A}^T)^T=\bm{A} \qquad
 ? 
 ! Undefined control sequence.
-l.25 \bm{A}(\bm{B}+\bm
-                      {C})=\bm{A}\bm{B}+\bm{A}\bm{C}
+l.24 (\bm{A}^T)^T=\bm
+                     {A} \qquad
 ? 
 ! Undefined control sequence.
-l.25 \bm{A}(\bm{B}+\bm{C})=\bm
-                              {A}\bm{B}+\bm{A}\bm{C}
+l.25 (k \bm
+           {A})^T=k \bm{A}^T  \qquad
 ? 
 ! Undefined control sequence.
-l.25 \bm{A}(\bm{B}+\bm{C})=\bm{A}\bm
-                                    {B}+\bm{A}\bm{C}
+l.25 (k \bm{A})^T=k \bm
+                       {A}^T  \qquad
 ? 
 ! Undefined control sequence.
-l.25 \bm{A}(\bm{B}+\bm{C})=\bm{A}\bm{B}+\bm
-                                           {A}\bm{C}
+l.26 (\bm
+         {A}\bm{B})^T=\bm{B}^T \bm{A}^T \qquad
 ? 
 ! Undefined control sequence.
-l.25 \bm{A}(\bm{B}+\bm{C})=\bm{A}\bm{B}+\bm{A}\bm
-                                                 {C}
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--28
-
- []
-
-! Undefined control sequence.
-l.30 (\bm
-         {A}^T)^T=\bm{A}
+l.26 (\bm{A}\bm
+               {B})^T=\bm{B}^T \bm{A}^T \qquad
 ? 
 ! Undefined control sequence.
-l.30 (\bm{A}^T)^T=\bm
-                     {A}
+l.26 (\bm{A}\bm{B})^T=\bm
+                         {B}^T \bm{A}^T \qquad
 ? 
 ! Undefined control sequence.
-l.32 (k \bm
-           {A})^T=k \bm{A}^T \\ \\
+l.26 (\bm{A}\bm{B})^T=\bm{B}^T \bm
+                                  {A}^T \qquad
 ? 
 ! Undefined control sequence.
-l.32 (k \bm{A})^T=k \bm
-                       {A}^T \\ \\
+l.27 (\bm
+         {A}^{-1})^T=((\bm{A})^T)^{-1} \qquad
+? 
+! Undefined control sequence.
+l.27 (\bm{A}^{-1})^T=((\bm
+                          {A})^T)^{-1} \qquad
+? 
+! Undefined control sequence.
+l.28 (\bm
+         {A}^T)^m=(\bm{A}^m)^T \qquad
+? 
+! Undefined control sequence.
+l.28 (\bm{A}^T)^m=(\bm
+                      {A}^m)^T \qquad
 ? 
 ! Undefined control sequence.
 l.33 (\bm
-         {A}\bm{B})^T=\bm{B}^T \bm{A}^T \\ \\
+         {A}^T)^*=(\bm{A}^*)^T \qquad
 ? 
 ! Undefined control sequence.
-l.33 (\bm{A}\bm
-               {B})^T=\bm{B}^T \bm{A}^T \\ \\
+l.33 (\bm{A}^T)^*=(\bm
+                      {A}^*)^T \qquad
 ? 
 ! Undefined control sequence.
-l.33 (\bm{A}\bm{B})^T=\bm
-                         {B}^T \bm{A}^T \\ \\
+l.34 (k \bm
+           {A})^*=k^{n-1}\bm{A}^* \qquad
 ? 
 ! Undefined control sequence.
-l.33 (\bm{A}\bm{B})^T=\bm{B}^T \bm
-                                  {A}^T \\ \\
-? 
-! Undefined control sequence.
-l.34 (\bm
-         {A}^{-1})^T=((\bm{A})^T)^{-1} \\ \\
-? 
-! Undefined control sequence.
-l.34 (\bm{A}^{-1})^T=((\bm
-                          {A})^T)^{-1} \\ \\
+l.34 (k \bm{A})^*=k^{n-1}\bm
+                            {A}^* \qquad
 ? 
 ! Undefined control sequence.
 l.35 (\bm
-         {A}^T)^m=(\bm{A}^m)^T \\ \\
+         {A}\bm{B})^*=\bm{B}^*\bm{A}^* \qquad
 ? 
 ! Undefined control sequence.
-l.35 (\bm{A}^T)^m=(\bm
-                      {A}^m)^T \\ \\
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--37
-
- []
-
-! Undefined control sequence.
-l.40 (\bm
-         {A}^T)^*=(\bm{A}^*)^T \\ \\
+l.35 (\bm{A}\bm
+               {B})^*=\bm{B}^*\bm{A}^* \qquad
 ? 
 ! Undefined control sequence.
-l.40 (\bm{A}^T)^*=(\bm
-                      {A}^*)^T \\ \\
+l.35 (\bm{A}\bm{B})^*=\bm
+                         {B}^*\bm{A}^* \qquad
 ? 
 ! Undefined control sequence.
-l.41 (k \bm
-           {A})^*=k^{n-1}\bm{A}^* \\ \\
+l.35 (\bm{A}\bm{B})^*=\bm{B}^*\bm
+                                 {A}^* \qquad
 ? 
 ! Undefined control sequence.
-l.41 (k \bm{A})^*=k^{n-1}\bm
-                            {A}^* \\ \\
+l.39 (\bm
+         {A}^{-1})^{-1}=\bm{A} \qquad
+? 
+! Undefined control sequence.
+l.39 (\bm{A}^{-1})^{-1}=\bm
+                           {A} \qquad
+? 
+! Undefined control sequence.
+l.40 (k \bm
+           {A})^{-1}=\frac{1}{k}\bm{A} \qquad
+? 
+! Undefined control sequence.
+l.40 (k \bm{A})^{-1}=\frac{1}{k}\bm
+                                   {A} \qquad
+? 
+! Undefined control sequence.
+l.41 (\bm
+         {A}\bm{B})^{-1}=\bm{B}^{-1}\bm{A}^{-1} \qquad
+? 
+! Undefined control sequence.
+l.41 (\bm{A}\bm
+               {B})^{-1}=\bm{B}^{-1}\bm{A}^{-1} \qquad
+? 
+! Undefined control sequence.
+l.41 (\bm{A}\bm{B})^{-1}=\bm
+                            {B}^{-1}\bm{A}^{-1} \qquad
+? 
+! Undefined control sequence.
+l.41 (\bm{A}\bm{B})^{-1}=\bm{B}^{-1}\bm
+                                       {A}^{-1} \qquad
 ? 
 ! Undefined control sequence.
 l.42 (\bm
-         {A}\bm{B})^*=\bm{B}^*\bm{A}^* \\ \\
+         {A}^T)^{-1}=(\bm{A}^{-1})^T \qquad
 ? 
 ! Undefined control sequence.
-l.42 (\bm{A}\bm
-               {B})^*=\bm{B}^*\bm{A}^* \\ \\
+l.42 (\bm{A}^T)^{-1}=(\bm
+                         {A}^{-1})^T \qquad
 ? 
 ! Undefined control sequence.
-l.42 (\bm{A}\bm{B})^*=\bm
-                         {B}^*\bm{A}^* \\ \\
+l.43 (\bm
+         {A}^n)^{-1}=(\bm{A}^{-1})^n \qquad
 ? 
 ! Undefined control sequence.
-l.42 (\bm{A}\bm{B})^*=\bm{B}^*\bm
-                                 {A}^* \\ \\
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--44
-
- []
-
-! Undefined control sequence.
-l.46 (\bm
-         {A}^{-1})^{-1}=\bm{A} \\ \\
+l.43 (\bm{A}^n)^{-1}=(\bm
+                         {A}^{-1})^n \qquad
 ? 
 ! Undefined control sequence.
-l.46 (\bm{A}^{-1})^{-1}=\bm
-                           {A} \\ \\
+l.44 \bm
+        {A}_{m*m},\bm{B}_{n*n}: \qquad
 ? 
 ! Undefined control sequence.
-l.47 (k \bm
-           {A})^{-1}=\frac{1}{k}\bm{A} \\ \\
+l.44 \bm{A}_{m*m},\bm
+                     {B}_{n*n}: \qquad
 ? 
 ! Undefined control sequence.
-l.47 (k \bm{A})^{-1}=\frac{1}{k}\bm
-                                   {A} \\ \\
-? 
-! Undefined control sequence.
-l.48 (\bm
-         {A}\bm{B})^{-1}=\bm{B}^{-1}\bm{A}^{-1} \\ \\
-? 
-! Undefined control sequence.
-l.48 (\bm{A}\bm
-               {B})^{-1}=\bm{B}^{-1}\bm{A}^{-1} \\ \\
-? 
-! Undefined control sequence.
-l.48 (\bm{A}\bm{B})^{-1}=\bm
-                            {B}^{-1}\bm{A}^{-1} \\ \\
-? 
-! Undefined control sequence.
-l.48 (\bm{A}\bm{B})^{-1}=\bm{B}^{-1}\bm
-                                       {A}^{-1} \\ \\
-? 
-! Undefined control sequence.
-l.49 (\bm
-         {A}^T)^{-1}=(\bm{A}^{-1})^T \\ \\
-? 
-! Undefined control sequence.
-l.49 (\bm{A}^T)^{-1}=(\bm
-                         {A}^{-1})^T \\ \\
-? 
-! Undefined control sequence.
-l.50 (\bm
-         {A}^n)^{-1}=(\bm{A}^{-1})^n \\ \\
-? 
-! Undefined control sequence.
-l.50 (\bm{A}^n)^{-1}=(\bm
-                         {A}^{-1})^n \\ \\
-? 
-! Undefined control sequence.
-<recently read> \bm 
-                    
-l.51 \bm
-        {A}_{m*m},\bm{B}_{n*n}: \\ \\
-? 
-! Undefined control sequence.
-l.51 \bm{A}_{m*m},\bm
-                     {B}_{n*n}: \\ \\
-? 
-! Undefined control sequence.
-l.53 ^^I\bm
+l.46 ^^I\bm
            {A} & \bm{O} \\
 ? 
 ! Undefined control sequence.
-l.53 ^^I\bm{A} & \bm
+l.46 ^^I\bm{A} & \bm
                     {O} \\
 ? 
 ! Undefined control sequence.
-l.54 ^^I\bm
+l.47 ^^I\bm
            {O} & \bm{B}
 ? 
 ! Undefined control sequence.
-l.54 ^^I\bm{O} & \bm
+l.47 ^^I\bm{O} & \bm
                     {B}
 ? 
 ! Undefined control sequence.
-l.58 ^^I\bm
+l.51 ^^I\bm
            {A}^{-1} & \bm{O} \\
 ? 
 ! Undefined control sequence.
-l.58 ^^I\bm{A}^{-1} & \bm
+l.51 ^^I\bm{A}^{-1} & \bm
                          {O} \\
 ? 
 ! Undefined control sequence.
-l.59 ^^I\bm
+l.52 ^^I\bm
            {O} & \bm{B}^{-1}
 ? 
 ! Undefined control sequence.
-l.59 ^^I\bm{O} & \bm
+l.52 ^^I\bm{O} & \bm
                     {B}^{-1}
 ? 
-[1
 
-]
+Overfull \hbox (21.68689pt too wide) in paragraph at lines 38--55
+[]$\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 A[]\OT1/cmr/m/n/9 )[] = \OML/cmm/m/it/9 A \O
+T1/cmr/m/n/9 (\OML/cmm/m/it/9 kA\OT1/cmr/m/n/9 )[] = []\OML/cmm/m/it/9 A \OT1/c
+mr/m/n/9 (\OML/cmm/m/it/9 AB\OT1/cmr/m/n/9 )[] = \OML/cmm/m/it/9 B[]A[] \OT1/cm
+r/m/n/9 (\OML/cmm/m/it/9 A[]\OT1/cmr/m/n/9 )[] = (\OML/cmm/m/it/9 A[]\OT1/cmr/m
+/n/9 )[] (\OML/cmm/m/it/9 A[]\OT1/cmr/m/n/9 )[] = (\OML/cmm/m/it/9 A[]\OT1/cmr/
+m/n/9 )[] \OML/cmm/m/it/9 A[]; B[] \OT1/cmr/m/n/9 :  [] =
+ []
+
 ! Undefined control sequence.
-l.64 r( \bm
-           {A} )=r( \bm{A}^T )=r( \bm{A}^T \bm{A} )=r( \bm{A} \bm{A} ^T) \\ \\
+l.57 r( \bm
+           {A} )=r( \bm{A}^T )=r( \bm{A}^T \bm{A} )=r( \bm{A} \bm{A} ^T) \qquad
+
 ? 
 ! Undefined control sequence.
-l.64 r( \bm{A} )=r( \bm
-                       {A}^T )=r( \bm{A}^T \bm{A} )=r( \bm{A} \bm{A} ^T) \\ \\
+l.57 r( \bm{A} )=r( \bm
+                       {A}^T )=r( \bm{A}^T \bm{A} )=r( \bm{A} \bm{A} ^T) \qquad
+
 ? 
 ! Undefined control sequence.
-l.64 r( \bm{A} )=r( \bm{A}^T )=r( \bm
-                                     {A}^T \bm{A} )=r( \bm{A} \bm{A} ^T) \\ \\
+l.57 r( \bm{A} )=r( \bm{A}^T )=r( \bm
+                                     {A}^T \bm{A} )=r( \bm{A} \bm{A} ^T) \qquad
+
 ? 
 ! Undefined control sequence.
-l.64 r( \bm{A} )=r( \bm{A}^T )=r( \bm{A}^T \bm
-                                              {A} )=r( \bm{A} \bm{A} ^T) \\ \\
+l.57 r( \bm{A} )=r( \bm{A}^T )=r( \bm{A}^T \bm
+                                              {A} )=r( \bm{A} \bm{A} ^T) \qquad
+
 ? 
 ! Undefined control sequence.
-l.64 ...=r( \bm{A}^T )=r( \bm{A}^T \bm{A} )=r( \bm
-                                                  {A} \bm{A} ^T) \\ \\
+l.57 ...=r( \bm{A}^T )=r( \bm{A}^T \bm{A} )=r( \bm
+                                                  {A} \bm{A} ^T) \qquad
 ? 
 ! Undefined control sequence.
-l.64 ...{A}^T )=r( \bm{A}^T \bm{A} )=r( \bm{A} \bm
-                                                  {A} ^T) \\ \\
+l.57 ...{A}^T )=r( \bm{A}^T \bm{A} )=r( \bm{A} \bm
+                                                  {A} ^T) \qquad
 ? 
 ! Undefined control sequence.
 <recently read> \bm 
                     
-l.66 设$\bm
+l.59 设$\bm
           {A},\bm{B} $都是同型矩阵，则 $r( \bm{A} \pm \bm{B}) \leq \bm{A}+\bm{B}$  \...
 
 ? 
 ! Undefined control sequence.
-l.66 设$\bm{A},\bm
+l.59 设$\bm{A},\bm
                  {B} $都是同型矩阵，则 $r( \bm{A} \pm \bm{B}) \leq \bm{A}+\bm{B}$  \...
 
 ? 
 ! Undefined control sequence.
-l.66 设$\bm{A},\bm{B} $都是同型矩阵，则 $r( \bm
+l.59 设$\bm{A},\bm{B} $都是同型矩阵，则 $r( \bm
                                       {A} \pm \bm{B}) \leq \bm{A}+\bm{B}$  \...
 
 ? 
 ! Undefined control sequence.
-l.66 设$\bm{A},\bm{B} $都是同型矩阵，则 $r( \bm{A} \pm \bm
+l.59 设$\bm{A},\bm{B} $都是同型矩阵，则 $r( \bm{A} \pm \bm
                                                  {B}) \leq \bm{A}+\bm{B}$  \...
 
 ? 
 ! Undefined control sequence.
-l.66 ... $都是同型矩阵，则 $r( \bm{A} \pm \bm{B}) \leq \bm
-                                                  {A}+\bm{B}$  \\ \\
+l.59 ... $都是同型矩阵，则 $r( \bm{A} \pm \bm{B}) \leq \bm
+                                                  {A}+\bm{B}$  \qquad
 ? 
 ! Undefined control sequence.
-l.66 ...阵，则 $r( \bm{A} \pm \bm{B}) \leq \bm{A}+\bm
-                                                  {B}$  \\ \\
+l.59 ...阵，则 $r( \bm{A} \pm \bm{B}) \leq \bm{A}+\bm
+                                                  {B}$  \qquad
 ? 
 ! Undefined control sequence.
-l.67 设$ \bm
+l.60 设$ \bm
            {A},\bm{B}$分别为m*n,n*s矩阵,且$\bm{A}\bm{B}=\bm{O}$,则 $r(\bm{A})+r(\bm...
 
 ? 
 ! Undefined control sequence.
-l.67 设$ \bm{A},\bm
+l.60 设$ \bm{A},\bm
                   {B}$分别为m*n,n*s矩阵,且$\bm{A}\bm{B}=\bm{O}$,则 $r(\bm{A})+r(\bm...
 
 ? 
 ! Undefined control sequence.
 <recently read> \bm 
                     
-l.67 设$ \bm{A},\bm{B}$分别为m*n,n*s矩阵,且$\bm
+l.60 设$ \bm{A},\bm{B}$分别为m*n,n*s矩阵,且$\bm
                                         {A}\bm{B}=\bm{O}$,则 $r(\bm{A})+r(\bm...
 
 ? 
 ! Undefined control sequence.
-l.67 设$ \bm{A},\bm{B}$分别为m*n,n*s矩阵,且$\bm{A}\bm
+l.60 设$ \bm{A},\bm{B}$分别为m*n,n*s矩阵,且$\bm{A}\bm
                                               {B}=\bm{O}$,则 $r(\bm{A})+r(\bm...
 
 ? 
 ! Undefined control sequence.
-l.67 ...{A},\bm{B}$分别为m*n,n*s矩阵,且$\bm{A}\bm{B}=\bm
+l.60 ...{A},\bm{B}$分别为m*n,n*s矩阵,且$\bm{A}\bm{B}=\bm
                                                   {O}$,则 $r(\bm{A})+r(\bm{B}...
 
 ? 
 ! Undefined control sequence.
-l.67 ...为m*n,n*s矩阵,且$\bm{A}\bm{B}=\bm{O}$,则 $r(\bm
-                                                  {A})+r(\bm{B}) \leq n $\\ \\
+l.60 ...为m*n,n*s矩阵,且$\bm{A}\bm{B}=\bm{O}$,则 $r(\bm
+                                                  {A})+r(\bm{B}) \leq n $\qquad
+
 ? 
 ! Undefined control sequence.
-l.67 ...,且$\bm{A}\bm{B}=\bm{O}$,则 $r(\bm{A})+r(\bm
-                                                  {B}) \leq n $\\ \\
+l.60 ...,且$\bm{A}\bm{B}=\bm{O}$,则 $r(\bm{A})+r(\bm
+                                                  {B}) \leq n $\qquad
+? 
+! Undefined control sequence.
+l.64 ...a_{k-1}+l_{k+1}\alpha_{k+1}+...+l_n\alphaa
+                                                  _n$ \\
+? 
+! Double subscript.
+l.64 ..._{k-1}+l_{k+1}\alpha_{k+1}+...+l_n\alphaa_
+                                                  n$ \\
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
+Underfull \hbox (badness 10000) in paragraph at lines 62--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+
+ []
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.79 $k_0 \neq 0 \Rightarrow \beta=-\frac{k_0}{k_}
+                                                  \alpha_1-...-\frac{k_n}{k_...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.79 ...}{k_}\alpha_1-...-\frac{k_n}{k_0}\alpha_n$
+                                                   \\
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
+Underfull \hbox (badness 10000) in paragraph at lines 81--85
+
+ []
+
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 107--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--74
+Underfull \hbox (badness 10000) in paragraph at lines 107--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--74
+Underfull \hbox (badness 10000) in paragraph at lines 112--118
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--87
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 88--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--112
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--125
-
- []
-
-[4] (./20191110.aux) ) 
+[2] [3] (./20191110.aux) ) 
 Here is how much of TeX's memory you used:
- 16427 strings out of 492912
- 372702 string characters out of 6134893
- 450838 words of memory out of 5000000
+ 16429 strings out of 492912
+ 372728 string characters out of 6134893
+ 453838 words of memory out of 5000000
  20334 multiletter control sequences out of 15000+600000
  540163 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  56i,8n,74p,496b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 20191110.pdf (4 pages).
+Output written on 20191110.pdf (3 pages).
