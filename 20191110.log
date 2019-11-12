@@ -1,8 +1,8 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.10.1)  12 NOV 2019 13:18
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.10.1)  12 NOV 2019 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**20191110.tex
+**20191110.tex -halt-on-error
 (./20191110.tex
 LaTeX2e <2018-12-01>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -1085,14 +1085,300 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--103
 
  []
 
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.150 f^'
+         (x)\in C[a,b].(a,b)二阶可导 f_{+}^'(a)>0 f(a)=f(b)证明:(1)\exists \xi \et...
+
+? 
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.150 f^'(x)\in C[a,b].(a,b)二阶可导 f_{+}^'
+                                        (a)>0 f(a)=f(b)证明:(1)\exists \xi \et...
+
+? 
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.150 ...=f(b)证明:(1)\exists \xi \eta \in (a,b),f^'
+                                                  (\xi)>0,f^'(\eta)<0.\qquad...
+
+? 
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.150 ...\exists \xi \eta \in (a,b),f^'(\xi)>0,f^'
+                                                  (\eta)<0.\qquad (2). \exis...
+
+? 
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.151 证 :(1) f_+^'
+                  (a)>0 \Rightarrow c \in (a,b) ,f(c)>f(a);\exists \xi \in(a...
+
+? 
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.151 ...\exists \xi \in(a,c),\eta \in (c,b) 使得f^'
+                                                  (\xi)=\frac{f(c)-f(a)}{c-a...
+
+? 
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.151 ...b) 使得f^'(\xi)=\frac{f(c)-f(a)}{c-a}>0.f^'
+                                                  (\eta)=\frac{f(b)-f(c)}{b-...
+
+? 
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.152 ...exists\xi,\eta\in(0,1) \frac{2}{f^'(\xi)}
+                                                  +\frac{1}{f^'(\eta)}=3 \\
+? 
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.152 ...1) \frac{2}{f^'(\xi)}+\frac{1}{f^'(\eta)}
+                                                  =3 \\
+? 
+! Undefined control sequence.
+l.153 ...varphi(0)=-\frac{2}{3}<0,\varphi(1)=\farc
+                                                  {1}{3}>0.\exists c\in (0,1...
+
+? 
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.154 ...c用2L;\exists\xi\in(0,c),\eta\in(c,1),使f^'
+                                                  (\xi)=\frac{f(c)-f(0)}{c}=...
+
+? 
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.154 ...\xi)=\frac{f(c)-f(0)}{c}=\frac{2}{3c},f^'
+                                                  (\eta)=\frac{f(1)-f(c)}{1-...
+
+? 
+! Undefined control sequence.
+l.155 3.\xi\eta复杂程度不同
+                     .留复杂\qquad 两个导数相除用柯西中值定理,一个导数用拉格朗日\\
+? 
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.156 ...明\exists\xi,\eta\in(a,b),e^{\eta-\xi}[f^'
+                                                  (\eta)+f^(\eta)]=1.
+? 
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.157 ...rac{\varphi(b)-\varphi(a)}{b-a}=\varphi^'
+                                                  (\eta)\Rightarrow \quad \f...
+
+? 
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.157 ...rrow \quad \frac{e^b-e^a}{b-a}=e^\eta[f^'
+                                                  (\eta)+f(\eta)].\exists\xi...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.158 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.158 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.158 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.158 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.158 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.158 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.158 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.158 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.158 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.158 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.158 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.158 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.158 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.158 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.158 
+      
+? 
+Missing character: There is no 二 in font [lmroman6-regular]:mapping=tex-text;!
+Missing character: There is no 阶 in font [lmroman6-regular]:mapping=tex-text;!
+Missing character: There is no 可 in font [lmroman6-regular]:mapping=tex-text;!
+Missing character: There is no 导 in font [lmroman6-regular]:mapping=tex-text;!
+Missing character: There is no 证 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 明 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 证 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 使 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 得 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 内 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 可 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 导 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 证 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 证 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 结 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 论 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 没 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 有 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 导 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 数 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 开 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 区 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 间 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 用 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 零 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 点 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 定 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 理 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 设 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 使 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 得 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 找 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 三 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 点 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 用 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 使 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 代 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 入 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 结 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 论 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 即 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 可 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 留 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 复 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 杂 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 两 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 个 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 导 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 数 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 相 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 除 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 用 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 柯 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 西 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 中 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 值 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 定 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 理 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 一 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 个 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 导 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 数 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 用 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 拉 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 格 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 朗 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 日 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 例 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 设 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 可 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 导 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 证 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 明 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 证 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 明 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 令 in font [lmroman5-regular]:mapping=tex-text;!
+Missing character: There is no 使 in font [lmroman5-regular]:mapping=tex-text;!
+
+Overfull \hbox (1426.2516pt too wide) in paragraph at lines 117--158
+\OML/cmm/m/it/9 f[]$ 
+ []
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \)
+        
+? 
 [2] (./20191110.aux) ) 
 Here is how much of TeX's memory you used:
  16429 strings out of 492912
  372728 string characters out of 6134893
- 451838 words of memory out of 5000000
+ 455838 words of memory out of 5000000
  20334 multiletter control sequences out of 15000+600000
  540163 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 56i,8n,74p,496b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,74p,511b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on 20191110.pdf (2 pages).

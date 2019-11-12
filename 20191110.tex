@@ -146,4 +146,16 @@ cosx=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\dots+\frac{(-1)^n}{(2n)!}x^
 ln(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\dots+\frac{(-1)^{n-1}}{n}x^n+o(x^n) \qquad
 (1+x)^a=1+ax+\frac{a(a-1)}{2!}x^2+\frac{a(a-1)(a-2)}{3!}x^3+\dots+\frac{a(a-1)\dots(a+1-n)}{n!}x^n
 \)
+\(
+f^'(x)\in C[a,b].(a,b)二阶可导 f_{+}^'(a)>0 f(a)=f(b)证明:(1)\exists \xi \eta \in (a,b),f^'(\xi)>0,f^'(\eta)<0.\qquad (2). \exists \xi \in (a,b) ,f^{''}(\xi)<0. \\
+证 :(1) f_+^'(a)>0 \Rightarrow c \in (a,b) ,f(c)>f(a);\exists \xi \in(a,c),\eta \in (c,b) 使得f^'(\xi)=\frac{f(c)-f(a)}{c-a}>0.f^'(\eta)=\frac{f(b)-f(c)}{b-c}<0.\\
+2.f(x) \int C[0,1],(0,1)内可导,f(0)=0,f(1)=1,证:(1)\exists c \in(0,1),f(c)=\frac{2}{3};(2)\exists\xi,\eta\in(0,1) \frac{2}{f^'(\xi)}+\frac{1}{f^'(\eta)}=3 \\
+证:(1)结论没有导数,开区间用零点定理,设\varphi(x)=f(x)-\frac{2}{3}.\varphi(0)=-\frac{2}{3}<0,\varphi(1)=\farc{1}{3}>0.\exists c\in (0,1),使得\varphi(c)=0\Rightarrow f(c)=\frac{2}{3}.\\
+(2)找三点0,1,c用2L;\exists\xi\in(0,c),\eta\in(c,1),使f^'(\xi)=\frac{f(c)-f(0)}{c}=\frac{2}{3c},f^'(\eta)=\frac{f(1)-f(c)}{1-c}=\frac{1}{3(1-c)},代入结论即可\\
+3.\xi\eta复杂程度不同.留复杂\qquad 两个导数相除用柯西中值定理,一个导数用拉格朗日\\
+P58例1设f(x) \in C[a,b],(a,b)可导,f(a)=f(b)=1,证明\exists\xi,\eta\in(a,b),e^{\eta-\xi}[f^'(\eta)+f^(\eta)]=1.
+证明:令\varphi(x)=e^xf(x),\exists\in(a,b),\frac{\varphi(b)-\varphi(a)}{b-a}=\varphi^'(\eta)\Rightarrow \quad \frac{e^b-e^a}{b-a}=e^\eta[f^'(\eta)+f(\eta)].\exists\xi\in(a,b),使\frac{e^b-e^a}{b-1}=e^{\xi}.\\
+
+
+\)
 \end{document}
