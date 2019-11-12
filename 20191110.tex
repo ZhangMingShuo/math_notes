@@ -1,0 +1,59 @@
+\documentclass[a4paper,fleqn]{article}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{type1cm}
+\usepackage[UTF8]{ctex}
+
+\geometry{a4paper,left=1cm,right=1cm,top=1cm,bottom=1cm}
+%\title{La}
+
+\begin{document}
+%  \vspace*{-105pt}
+%  {\let\newpage\relax\maketitle}
+
+  \fontsize{9pt}{13.5pt}\selectfont
+%输入数学公式
+\(
+	(u+v)^{(n)}=u^{(n)}+v^{(n)}
+\qquad 
+	(uv)^{(n)}=C_n^0u^{(n)}+C_n^1u^{(n-1)}v^\prime+ \cdots + C_n^nuv^{(n)}  
+\qquad
+	(sinx)^{(n)}=sin(x+\frac{n\pi}{2})  
+\qquad
+	(cosx)^{(n)}=coss(x+\frac{n\pi}{2})  
+\)
+\begin{displaymath} 
+	\frac{1}{(ax+b)^{(n)}}= \frac{(-1)^nn!a^n}{(ax+b)^{(n+1)}} 
+\end{displaymath} \\
+设y=f(x)可导且\(f^\prime(x)\neq 0, x= \varphi(y)\)为反函数,则\(x=\varphi(y)\)可导,且
+\(
+\varphi^\prime(y)=\frac{1}{f^\prime(x)}
+\) \\
+设y=f(x)二阶可导且\(f^\prime(x)\neq 0, x= \varphi(y)\)为反函数,则\(x=\varphi(y)\)二阶可导,且
+\(
+\varphi^{\prime\prime}(y)=-\frac{f^{\prime\prime}(x)}{f^{\prime3}(x)}
+\) \\
+\(x \to 0 \)常用的等价无穷小 
+\(
+x \sim sinx \sim tanx \sim arcsinx \sim arctanx \sim ln(1+x) \sim e^x-1 ,\qquad 1-cosx \sim \frac{x^2}{2},1-cos^ax \sim \frac{a}{2} x^2
+\)\\
+\(
+(1+x)^a-1 \sim ax ,\qquad 
+a^x-1 \sim xlna
+\) \\
+\( x\to 0 \)常用的麦克劳林公式
+\( 
+e^x=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\dots+\frac{x^n}{n!}+o(x^n) \qquad 
+sinx=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\dots+\frac{(-1)^n}{(2n+1)!}x^{2n+1}+o(x^{2n+1})
+\)\\
+\(
+cosx=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\dots+\frac{(-1)^n}{(2n)!}x^{2n}+o(x^{2n}) \qquad 
+\frac{1}{1-x}=1+x+x^2+x^3+x^4+\dots+x^n+o(x^n) \)\\
+\(
+\frac{1}{1+x}=1-x+x^2-x^3+x^4+\dots+\frac{(-1)^{n-1}}{n}x^n+o(x^n)
+\)\\
+\(
+ln(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\dots+\frac{(-1)^{n-1}}{n}x^n+o(x^n) \qquad
+(1+x)^a=1+ax+\frac{a(a-1)}{2!}x^2+\frac{a(a-1)(a-2)}{3!}x^3+\dots+\frac{a(a-1)\dots(a+1-n)}{n!}x^n
+\)
+\end{document}
