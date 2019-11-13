@@ -8,96 +8,6 @@
 %\title{La}
 
 \begin{document}
-\fontsize{9pt}{13.5pt}\selectfont
-\section*{math notes}
-\subsection{矩阵的三则运算性质}
-$
-\bm{A} + \bm{B} = \bm{B} + \bm{A} \qquad
-(\bm{A} + \bm{B}) + \bm{C} = \bm{A} + (\bm{B}+\bm{C}) \qquad
-(\bm{A}\bm{B})\bm{C}=\bm{A}(\bm{B}\bm{C}) \qquad
-(k+l)\bm{A}=k\bm{A}+l\bm{A} \qquad
-k(\bm{A}+\bm{B})=k\bm{A}+k\bm{B} \\
-\bm{A}(\bm{B}+\bm{C})=\bm{A}\bm{B}+\bm{A}\bm{C} \qquad
-$
-\subsection{矩阵转置的性质}
-\(
-(\bm{A}^T)^T=\bm{A} \qquad
-(k \bm{A})^T=k \bm{A}^T  \qquad
-(\bm{A}\bm{B})^T=\bm{B}^T \bm{A}^T \qquad 
-(\bm{A}^{-1})^T=((\bm{A})^T)^{-1} \qquad
-(\bm{A}^T)^m=(\bm{A}^m)^T \qquad
-\)
-
-\subsection{伴随矩阵的性质}
-\(
-(\bm{A}^T)^*=(\bm{A}^*)^T \qquad
-(k \bm{A})^*=k^{n-1}\bm{A}^* \qquad
-(\bm{A}\bm{B})^*=\bm{B}^*\bm{A}^* \qquad
-\)
-\subsection{逆矩阵的性质}
-\(
-(\bm{A}^{-1})^{-1}=\bm{A} \qquad
-(k \bm{A})^{-1}=\frac{1}{k}\bm{A} \qquad
-(\bm{A}\bm{B})^{-1}=\bm{B}^{-1}\bm{A}^{-1} \qquad
-(\bm{A}^T)^{-1}=(\bm{A}^{-1})^T \qquad
-(\bm{A}^n)^{-1}=(\bm{A}^{-1})^n \\
-\bm{A}_{m*m},\bm{B}_{n*n}: \qquad
-\begin{pmatrix}
-	\bm{A} & \bm{O} \\
-	\bm{O} & \bm{B}
-\end{pmatrix}
-=
-\begin{pmatrix}
-	\bm{A}^{-1} & \bm{O} \\
-	\bm{O} & \bm{B}^{-1}
-\end{pmatrix}
-\)
-\subsection{矩阵秩的性质}
-\(
-r( \bm{A} )=r( \bm{A}^T )=r( \bm{A}^T \bm{A} )=r( \bm{A} \bm{A} ^T) \qquad
-\)
-设$\bm{A},\bm{B} $都是同型矩阵，则 $r( \bm{A} \pm \bm{B}) \leq \bm{A}+\bm{B}$  \qquad
-设$ \bm{A},\bm{B}$分别为m*n,n*s矩阵,且$\bm{A}\bm{B}=\bm{O}$,则 $r(\bm{A})+r(\bm{B}) \leq n $\qquad
-\subsection{证明向量组$\alpha_1...\alpha_n$线性相关的充分必要条件是该向量组中至少有一个向量被其余向量线性表示}
-1. "$\Rightarrow$": 存在不全为0的$k_1,k_2,..., k_n$使得 $k_1\alpha_1+...+ k_n \alpha_n=0$ \qquad
-设 $k_1\neq 0$,  $\alpha_1=-\frac{k_2}{k_1}\alpha_2-...-\frac{k_n}{k_1}\alpha_n$ \qquad
-2. "$\Leftarrow$" $l_1\alpha_1+...+l_{k-1}\alpha_{k-1}+l_{k+1}\alpha_{k+1}+...+l_n\alpha_n$ \\
-  $\Rightarrow l_1\alpha_1+...+l_{k-1}\alpha_{k-1}+(-1)\alpha_k+l_{k+1}\alpha_{k+1}+...+l_n\alpha_n=0$ \\ 
- 所以$\alpha_1...\alpha_n$线性相关 \\ 
-\subsection{证明$\alpha \beta$线性相关$\Leftrightarrow \alpha \beta$成比例}
-证明:"$\Rightarrow$" $\exists$不全为0的 $k_1k_2$,使得
- $k_1\alpha+k_2\beta=0$\qquad
- 设  $k_2\neq0 \Rightarrow \beta = - \frac{k_1}{k_2}\alpha$ $\Rightarrow$ $\alpha\beta$对应成比例 \\ 
- "$\Leftarrow$"设$\beta=l\alpha \Rightarrow l\alpha+(-1)\beta=0$\qquad 
-  $\Rightarrow$  $\alpha \beta$线性相关 \\ 
-\subsection{向量祖相关性与线性表示的性质}
-2.设$\alpha_1...\alpha_n$线性无关 \\ 
-(1)若$\alpha_1...\alpha_n,\beta$线性相关,则向量 $b$可以由 $\alpha_1...\alpha_n$唯一线性表示 \\ 
-"$\Rightarrow$"$\exists$不全为0的 $k_1...k_n,k_0$使$k_1\alpha_1+...+k_n\alpha_n+k_0\beta=0$ ;\qquad 
-若$k_0=0\Rightarrow k_1\alpha_1+...+k_n=0$,$k_0 \neq 0 \Rightarrow \beta=-\frac{k_0}{k_1}\alpha_1-...-\frac{k_n}{k_0}\alpha_n$ \\ 
-
-证明唯一性:令$\beta=l_1\alpha_1+...+l_n\alpha_n$ ;\qquad $\beta=t_1\alpha_1+...+t_n\alpha_n$ \qquad $\Rightarrow (l_1-t_1)\alpha_1+...+(l_n-t_n)\alpha_n=0$ \qquad
-因为$\alpha_1...\alpha_n$线性无关,所以  $l_1=t_1,...,l_n=t_n$,证毕 \\
-(2)$\alpha_1...\alpha_n,b$线性无关$\Leftrightarrow $向量b不可以由 $\alpha_1...\alpha_n$线性表示 ;\qquad用反证法证明。\\ 
-3.全组线性无关$\Rightarrow$部分组线性无关 \\ 
-4.部分组相关$\Rightarrow$全组线性相关\\ 
-5.$\alpha_1\dots\alpha_n$为n个n维向量 \quad $\alpha_1...\alpha_n$线性无关的充分必要条件是$|\alpha_1,...,\alpha_n|\neq 0$\\ 
-用结论$A=(\alpha_1...\alpha_n),\alpha_1...\alpha_n$线性无关$\Leftrightarrow$$\alpha_1...\alpha_n$的秩=n $\Leftrightarrow r(A)=n \Leftrightarrow |A|\neq 0$ \\ 
-6.$\alpha_1...\alpha_n$线性相关$\Leftrightarrow|\alpha_1...\alpha_n|=0$ \qquad 证:令$A=(\alpha_1...\alpha_n)$.\qquad 
-$\alpha_1...\alpha_n$线性相关\qquad $\Leftrightarrow \qquad \alpha_1...\alpha_n $的秩<n $ \qquad \Leftrightarrow \qquad r(A)=n \qquad \Leftrightarrow\qquad |A| = 0$ \\ 
-7.设$\alpha_1...\alpha_n$为n个m维向量,若$m<n$,则向量组$\alpha_1...\alpha_n$一定线性相关 \\qquad
-口诀向量组左右长上下短一点线性相关\\ 
-向量的维数代表了方程的个数 ; \qquad向量的个数代表了未知数的个数; \qquad 方程数少了，有自由变量，一定有非零解，则一定线性相关 \\ 
-证明:令$A_{m*n}=(\alpha_1...\alpha_n) \Rightarrow r(A) \leq m < n$\qquad因为$\alpha_1...\alpha_n$线性相关$\Leftrightarrow \alpha_1...\alpha_n$的秩<n  $\Leftrightarrow r(A)<n$ \qquad而$r(A)\leq m<n.$所以 $\alpha_1...\alpha_n$线性相关
-
-\subsection{汤家凤行列式强化提高}
-1. $D=\left|\begin{array}{ccccc}{1} & {2} & {3} & {4} & {5} \\ {7} & {7} & {7} & {3} & {3} \\ {3} & {2} & {4} & {5} & {2} \\ {3} & {3} & {3} & {2} & {2} \\ {4} & {6} & {5} & {2} & {3}\end{array}\right|, \text {则} A_{31}+A_{32}+A_{33}=$ 
-$\left|\begin{array}{ccccc}{1} & {2} & {3} & {4} & {5} \\ {7} & {7} & {7} & {3} & {3} \\ {1} & {1} & {1} & {0} & {0} \\ {3} & {3} & {3} & {2} & {2} \\ {4} & {6} & {5} & {2} & {3} \end{array}\right| = \left|\begin{array}{lllll}{1} & {2} & {3} & {4} & {5} \\ {0} & {0} & {0} & {3} & {3} \\ {1} & {1} & {1} & {0} & {0} \\ {0} & {0} & {0} & {2} & {2} \\ {4} & {6} & {5} & {2} & {3}\end{array}\right|=0$ \\ \\
-2.
-已知
-$|\boldsymbol{E}-\boldsymbol{A}|=|\boldsymbol{E}-2 \boldsymbol{A}|=|\boldsymbol{E}-3 \boldsymbol{A}|=0$求$ \left|\boldsymbol{B}^{-1}+2 \boldsymbol{E}\right|$ \\ 
-解:因为$|\boldsymbol{E}-\boldsymbol{A}|=|\boldsymbol{E}-2 \boldsymbol{A}|=|\boldsymbol{E}-3 \boldsymbol{A}|=0$
-所以$\boldsymbol{A}$的特征值为 $\frac{1}{3},\frac{1}{2}$,1
 %  \vspace*{-105pt}
 %  {\let\newpage\relax\maketitle}
 
@@ -112,7 +22,9 @@ $|\boldsymbol{E}-\boldsymbol{A}|=|\boldsymbol{E}-2 \boldsymbol{A}|=|\boldsymbol{
 \qquad
 	(cosx)^{(n)}=coss(x+\frac{n\pi}{2})  
 \)
-\(	\frac{1}{(ax+b)^{(n)}}= \frac{(-1)^nn!a^n}{(ax+b)^{(n+1)}}\) 
+\begin{displaymath} 
+	\frac{1}{(ax+b)^{(n)}}= \frac{(-1)^nn!a^n}{(ax+b)^{(n+1)}} 
+\end{displaymath} \\
 设y=f(x)可导且\(f^\prime(x)\neq 0, x= \varphi(y)\)为反函数,则\(x=\varphi(y)\)可导,且
 \(
 \varphi^\prime(y)=\frac{1}{f^\prime(x)}
@@ -143,15 +55,5 @@ cosx=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\dots+\frac{(-1)^n}{(2n)!}x^
 \(
 ln(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\dots+\frac{(-1)^{n-1}}{n}x^n+o(x^n) \qquad
 (1+x)^a=1+ax+\frac{a(a-1)}{2!}x^2+\frac{a(a-1)(a-2)}{3!}x^3+\dots+\frac{a(a-1)\dots(a+1-n)}{n!}x^n
-\)
-\(
-f^{'}(x)\in C[a,b].(a,b)二阶可导 f^{'}_{+}(a)>0 f(a)=f(b)证明:(1)\exists \xi \eta \in (a,b),f^{'}(\xi)>0,f^{'}(\eta)<0.\qquad (2). \exists \xi \in (a,b) ,f^{''}(\xi)<0. \\
-证 :(1) f^{'}_{+}(a)>0 \Rightarrow c \in (a,b) ,f(c)>f(a);\exists \xi \in(a,c),\eta \in (c,b) 使得f^{'}(\xi)=\frac{f(c)-f(a)}{c-a}>0.f^{'}(\eta)=\frac{f(b)-f(c)}{b-c}<0.\\
-2.f(x) \in C[0,1],(0,1)内可导,f(0)=0,f(1)=1,证:(1)\exists c \in(0,1),f(c)=\frac{2}{3};(2)\exists\xi,\eta\in(0,1) \frac{2}{f^{'}(\xi)}+\frac{1}{f^{'}(\eta)}=3 \\
-证:(1)结论没有导数,开区间用零点定理,设\varphi(x)=f(x)-\frac{2}{3}.\varphi(0)=-\frac{2}{3}<0,\varphi(1)=\farc{1}{3}>0.\exists c\in (0,1),使得\varphi(c)=0\Rightarrow f(c)=\frac{2}{3}.\\
-(2)找三点0,1,c用2L;\exists\xi\in(0,c),\eta\in(c,1),使f^{'}(\xi)=\frac{f(c)-f(0)}{c}=\frac{2}{3c},f^{'}(\eta)=\frac{f(1)-f(c)}{1-c}=\frac{1}{3(1-c)},代入结论即可\\
-3.\xi\eta复杂程度不同.留复杂\qquad 两个导数相除用柯西中值定理,一个导数用拉格朗日\\
-P58例1设f(x) \in C[a,b],(a,b)可导,f(a)=f(b)=1,证明\exists\xi,\eta\in(a,b),e^{\eta-\xi}[f^{'}(\eta)+f(\eta)]=1.
-证明:令\varphi(x)=e^xf(x),\exists\in(a,b),\frac{\varphi(b)-\varphi(a)}{b-a}=\varphi^{'}(\eta)\Rightarrow \quad \frac{e^b-e^a}{b-a}=e^{\eta}[f^{'}(\eta)+f(\eta)].\exists\xi\in(a,b),使\frac{e^b-e^a}{b-1}=e^{\xi}.\\
 \)
 \end{document}
